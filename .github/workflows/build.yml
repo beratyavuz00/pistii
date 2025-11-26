@@ -40,7 +40,7 @@ jobs:
     - name: APK Derlemesi (Build)
       run: |
         # --product-name ile telefonda görünecek adı ayarlıyoruz
-        flet build apk --product-name "Pisti Oyunu" --verbose
+        flet build apk --verbose
 
     - name: APK Dosyasını Yükle
       uses: actions/upload-artifact@v4

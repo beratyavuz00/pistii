@@ -58,7 +58,7 @@ def calculate_final_details(collected_cards, pisti_count):
     }
 
 def main(page: ft.Page):
-    page.title = "Açık Pişti"f
+    page.title = "Açik Pişti"f
     page.window_width = 480
     page.window_height = 850
     page.bgcolor = "#1B5E20"
@@ -430,3 +430,4 @@ def main(page: ft.Page):
     start_game()
 
 ft.app(target=main)
+
